@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Tailwind: Build (배포용)",
+      "type": "npm",
+      "script": "build",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "npm run build - dist/global.css를 minify하여 생성"
+    },
+    {
+      "label": "Tailwind: Watch (개발용)",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "detail": "npm run dev - 파일 변경 감지 후 자동 재빌드"
+    }
+  ]
+}

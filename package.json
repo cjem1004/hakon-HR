@@ -1,0 +1,12 @@
+{
+  "name": "hakon-hr",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./src/global.css -o ./dist/global.css --watch",
+    "build": "tailwindcss -i ./src/global.css -o ./dist/global.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
